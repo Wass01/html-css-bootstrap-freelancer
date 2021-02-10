@@ -46,11 +46,30 @@
   margin-top: 100px;
 }
 
+/* icon star */
+.icon-star{
+  font-size: 40px;
+  text-align: center;
+}
+
+.icon-star div{
+  background-color: #ffffff;
+  height: 3px;
+  width: 100px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+/* icon star */
+
 /* main section avatar */
 .jumbotron{
   text-align: center;
   color: #ffffff;
   background-color: #1ABC9C;
+  padding-top: 55px;
+  padding-bottom: 65px;
 }
 
 .jumbotron img{
@@ -61,6 +80,22 @@
   text-transform: uppercase;
 }
 
-.icon-star{
+.jumbotron p{
+  font-size: 22px;
+  margin-top: 1.5em;
+}
+/* main section avatar */
 
+/* portfolio section */
+#portfolio{
+  color: #2C3E50;
+  text-align: center;
+}
+
+#portfolio > .icon-star > div{
+  background-color: #2C3E50;
+}
+
+#portfolio h1{
+  font-size: 50px;
 }
