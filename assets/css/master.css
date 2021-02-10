@@ -36,3 +36,31 @@
   padding: 10px 15px;
   color: #ffffff;
 }
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #1ABC9C;
+    background-color: transparent;
+}
+/* nav bar */
+.mg-top{
+  margin-top: 100px;
+}
+
+/* main section avatar */
+.jumbotron{
+  text-align: center;
+  color: #ffffff;
+  background-color: #1ABC9C;
+}
+
+.jumbotron img{
+  height: 250px;
+}
+
+.jumbotron h1{
+  text-transform: uppercase;
+}
+
+.icon-star{
+
+}
