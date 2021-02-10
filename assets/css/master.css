@@ -30,4 +30,9 @@
 
 .navbar-toggle {
   margin-top: 30px;
+  background-color: #1ABC9C;
+  border-color: #1ABC9C;
+  border-style: none;
+  padding: 10px 15px;
+  color: #ffffff;
 }
