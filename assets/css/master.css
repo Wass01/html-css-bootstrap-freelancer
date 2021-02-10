@@ -1,3 +1,5 @@
+
+
 /* nav bar */
 .navbar-default {
   background-color: #2C3E50;
@@ -13,6 +15,7 @@
 .navbar-nav > li > a{
   padding-top: 40px;
   padding-bottom: 40px;
+  margin-right: 20px;
 }
 
 .navbar-brand {
@@ -98,4 +101,20 @@
 
 #portfolio h1{
   font-size: 50px;
+}
+
+img{
+  height: 250px;
+}
+
+.port-img img{
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+@media all and (max-width: 992px){
+  #portfolio h1{
+    font-size: 35px;
+  }
+
 }
