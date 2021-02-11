@@ -154,8 +154,70 @@ img{
 #about{
   margin-top: 5%;
   background-color: #1ABC9C;
+  color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+#about div h1{
+  font-size: 50px;
+}
+
+#about div p{
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.btn-lg {
+    padding: 15px 35px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.my-btn-primary{
+  border-color: #ffffff;
+}
+
+.download a:hover{
+  background-color: #ffffff;
 }
 /* about section */
+
+/* contact me section */
+#contact{
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+#contact .icon-star div{
+  background-color: #2C3E50;
+}
+
+#contact div h1{
+  font-size: 50px;
+}
+
+div input, div textarea{
+  font-size: 1.7em;
+  border: none;
+  background: none;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.my-btn-group button{
+  background-color: #1ABC9C;
+  border: none;
+  padding: 20px 30px;
+  font-size: 1.5em;
+  color: #ffffff;
+  border-radius: 7px;
+}
+/* contact me section */
+
+
+
 @media all and (min-width: 992px) and
 (max-width: 1200px){
   img{
@@ -182,6 +244,14 @@ img{
     font-size: 35px;
   }
 
+  #about div h1{
+    font-size: 35px;
+  }
+
+  #contact div h1{
+    font-size: 35px;
+  }
+
   .over-img{
   position: absolute;
   top: 40px;
@@ -194,7 +264,11 @@ img{
   transition: .5s ease;
   background-color: #1ABC9C;
   border-radius: 10px;
-}
+  }
+
+  div input, div textarea{
+    font-size: 1.5em;
+  }
 }
 
 @media all and (max-width: 767px){
