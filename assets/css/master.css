@@ -1,9 +1,7 @@
-
-
 /* nav bar */
 .navbar-default {
   background-color: #2C3E50;
-
+  border: 0;
 }
 
 .navbar-default .navbar-brand,
@@ -22,7 +20,6 @@
   float: left;
   height: 50px;
   padding: 20px 20px;
-  font-size: 18px;
   line-height: 55px;
   font-size: 22px;
 }
@@ -58,7 +55,7 @@
 .icon-star div{
   background-color: #ffffff;
   height: 3px;
-  width: 100px;
+  width: 10%;
   border-radius: 4px;
   display: inline-block;
   margin-bottom: 10px;
@@ -112,9 +109,91 @@ img{
   border-radius: 10px;
 }
 
+/* hover img */
+.plus{
+  position: relative;
+}
+.plus img {
+  display: inline-block;
+}
+
+.over-img {
+  position: absolute;
+  top: 40px;
+  bottom: 0;
+  left: 21px;
+  right: 0px;
+  height: 250px;
+  width: 89%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1ABC9C;
+  border-radius: 10px;
+}
+
+.plus:hover .over-img {
+  opacity: 0.95;
+  cursor: pointer;
+}
+
+.fa-plus {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media all and (min-width: 992px) and
+(max-width: 1200px){
+  img{
+    height: 210px;
+  }
+
+  .over-img {
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 16px;
+    right: 0px;
+    height: 210px;
+    width: 90%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1ABC9C;
+    border-radius: 10px;
+  }
+}
+
 @media all and (max-width: 992px){
   #portfolio h1{
     font-size: 35px;
   }
 
+  .over-img{
+  position: absolute;
+  top: 40px;
+  bottom: 0;
+  left: 15px;
+  right: 0px;
+  height: 250px;
+  width: 92%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1ABC9C;
+  border-radius: 10px;
+}
+}
+
+@media all and (max-width: 767px){
+  .plus img{
+    height: 100%;
+    max-width: 80%;
+    width: 100%;
+    margin: 15px auto;
+  }
 }
