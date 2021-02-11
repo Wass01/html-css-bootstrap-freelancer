@@ -66,7 +66,6 @@
 
 /* main section avatar */
 .jumbotron{
-  text-align: center;
   color: #ffffff;
   background-color: #1ABC9C;
   padding-top: 55px;
@@ -148,7 +147,15 @@ img{
   transform: translate(-50%, -50%);
   text-align: center;
 }
+/* hover img */
+/* portfolio section */
 
+/* about section */
+#about{
+  margin-top: 5%;
+  background-color: #1ABC9C;
+}
+/* about section */
 @media all and (min-width: 992px) and
 (max-width: 1200px){
   img{
@@ -193,7 +200,6 @@ img{
 @media all and (max-width: 767px){
   .plus img{
     height: 100%;
-    max-width: 80%;
     width: 100%;
     margin: 15px auto;
   }
