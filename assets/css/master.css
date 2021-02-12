@@ -105,7 +105,6 @@ img{
 }
 
 .port-img img{
-  margin-top: 40px;
   border-radius: 10px;
 }
 
@@ -117,19 +116,17 @@ img{
 
  .over-img {
   position: absolute;
-  top: 40px;
-  bottom: 0;
-  left: 21px;
-  right: 0px;
-  height: 250px;
-  width: 89%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
   opacity: 0;
   transition: .5s ease;
   background-color: #1ABC9C;
   border-radius: 10px;
 }
 
-.plus:hover .over-img {
+.my-card:hover .over-img {
   opacity: 0.95;
   cursor: pointer;
 }
@@ -144,6 +141,21 @@ img{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.my-card{
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.my-card img{
+  width: 100%;
+  height:auto;
 }
 /* hover img */
 /* portfolio section */
@@ -271,25 +283,10 @@ div input, div textarea{
 
 /* seconda parte footer */
 
-
 @media all and (min-width: 992px) and
 (max-width: 1200px){
   img{
     height: 210px;
-  }
-
-  .over-img {
-    position: absolute;
-    top: 40px;
-    bottom: 0;
-    left: 16px;
-    right: 0px;
-    height: 210px;
-    width: 90%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #1ABC9C;
-    border-radius: 10px;
   }
 }
 
@@ -305,20 +302,6 @@ div input, div textarea{
   #contact div h1{
     font-size: 35px;
   }
-
-  .over-img{
-  position: absolute;
-  top: 40px;
-  bottom: 0;
-  left: 15px;
-  right: 0px;
-  height: 250px;
-  width: 92%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #1ABC9C;
-  border-radius: 10px;
-}
 
   div input, div textarea{
     font-size: 1.5em;
@@ -338,7 +321,6 @@ div input, div textarea{
   .plus img{
     height: 100%;
     width: 100%;
-    margin: 15px auto;
   }
 }
 
